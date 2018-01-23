@@ -23,6 +23,8 @@ int main(int argc, char** argv) {
     printf("exempel : ");
     afficher_complexe(exemple);
     printf("\n");
+    
+    sleep(90);
     return (EXIT_SUCCESS);
 }
 
