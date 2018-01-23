@@ -24,7 +24,8 @@ int main(int argc, char** argv) {
     afficher_complexe(exemple);
     printf("\n");
     
-    sleep(90);
+    //sleep(90); //normal
+	_sleep(1000); // visual studio
     return (EXIT_SUCCESS);
 }
 
